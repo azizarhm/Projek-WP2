@@ -59,8 +59,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		    </div>
 		  </div>
     	</div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar" style="background-color: #871a1a;" id="ftco-navbar">
-	    <div class="container navbar-dark" style="background-color: #871a1a;">
+    <nav class="navbar navbar-expand-lg navbar-light ftco_navbar" id="ftco-navbar">
+	    <div class="container navbar-light">
 	      <a class="navbar-brand" href="<?php echo base_url(); ?>"><?php echo get_store_name(); ?></a>
 	      <button style="color: #871a1a;" class="navbar-toggler " type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	          <li class="nav-item active"><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
 	          <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <div class="dropdown-menu" style="background-color: #871a1a;" aria-labelledby="dropdown04">
                 <a class="dropdown-item" href="<?php echo site_url('shop/cart'); ?>">Chart</a>
                 <a class="dropdown-item" href="<?php echo site_url('customer/payments/confirm'); ?>">Confirm Payment</a>
               </div>
@@ -80,7 +80,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <li class="nav-item"><a href="<?php echo site_url('pages/contact'); ?>" class="nav-link">Contact</a></li>
               <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown05">
+              <div class="dropdown-menu" style="background-color: #871a1a;" aria-labelledby="dropdown05">
 				  <?php if ( is_login() && is_customer()) : ?>
 				  <a class="dropdown-item" href="<?php echo site_url('customer'); ?>">My Account</a>
 				  <a class="dropdown-item" href="<?php echo site_url('customer/orders'); ?>">Order</a>
