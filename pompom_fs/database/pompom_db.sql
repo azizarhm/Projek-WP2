@@ -510,7 +510,7 @@ INSERT INTO `settings` (`id`, `key`, `content`) VALUES
 (2, 'store_name', 'Pompom Fruit Store'),
 (3, 'store_phone_number', '081722847947'),
 (4, 'store_email', 'pompom721@gmail.com'),
-(5, 'store_tagline', 'Vitamin rasa enak?!!Makan buah saja..'),
+(5, 'store_tagline', 'Vitamin rasa enak!? Makan buah saja..'),
 (6, 'store_logo', 'Logo.png'),
 (7, 'max_product_image_size', '20000'),
 (8, 'store_description', 'Pompom Fruit Store sudah ada sejak tahun 2018 sampai dengan sekarang. Dan kini sudah memiliki 5 cabang!'),
