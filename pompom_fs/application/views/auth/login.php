@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     </head>
     <body>
-        <h1>Login ke <?php echo get_store_name(); ?></h1>
+        <h1><b>Login ke <?php echo get_store_name(); ?></b></h1>
         <div class=" w3l-login-form">
             <h2 style="color: #871a1a;"><b>Login Akun</b></h2>
             <?php if ($flash_message) : ?>
@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <?php echo form_open('auth/login/do_login'); ?>
 
             <div class=" w3l-form-group">
-                <label>Username:</label>
+                <label style="color: black;"><b>Username</b></label>
                 <div class="group">
                     <i class="fas fa-user" style="color: #871a1a;"></i>
                     <input type="text" name="username" value="<?php echo set_value('username', $old_username); ?>" class="form-control" placeholder="Username" minlength="4" maxlength="16" required>
@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <?php echo form_error('username'); ?>
             </div>
             <div class=" w3l-form-group">
-                <label>Password:</label>
+                <label style="color: black;"><b>Password</b></label>
                 <div class="group">
                     <i class="fas fa-unlock" style="color: #871a1a;"></i>
                     <input type="password" name="password" class="form-control" placeholder="Password" required>
@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div>
                 <center>
                 <p>Doesn't have account?</p>
-                <p><a href="<?php echo base_url('auth/register'); ?>">Create account.</a></p>
+                <p><a style="color: #871a1a;" href="<?php echo base_url('auth/register'); ?>"><u><b>Create account.</b></u></a></p>
                 </center>
             </div>
             <button type="submit" style="background-color: #871a1a;">Login</button>
@@ -61,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <footer>
-            <p class="copyright-agileinfo"> &copy; 2022 <?php echo anchor(base_url(), get_store_name()); ?></p>
+            <p class="copyright-agileinfo"><a style="color: #871a1a;" href="<?php echo base_url('home'); ?>"><b> &copy; 2022 Pompom Fruit Store</b></a></p>
         </footer>
 
     </body>
