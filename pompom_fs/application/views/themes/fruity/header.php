@@ -59,9 +59,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		    </div>
 		  </div>
     	</div>
-    <nav class="navbar navbar-expand-lg navbar-light ftco_navbar" id="ftco-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light ftco_navbar ftco-navbar-light" id="ftco-navbar">
 	    <div class="container navbar-light">
-	      <a class="navbar-brand" href="<?php echo base_url(); ?>"><?php echo get_store_name(); ?></a>
+	      <a class="navbar-brand" style="color: #871a1a;" href="<?php echo base_url(); ?>"><?php echo get_store_name(); ?></a>
 	      <button style="color: #871a1a;" class="navbar-toggler " type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -82,17 +82,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
               <div class="dropdown-menu" style="background-color: #871a1a;" aria-labelledby="dropdown05">
 				  <?php if ( is_login() && is_customer()) : ?>
-				  <a class="dropdown-item" href="<?php echo site_url('customer'); ?>">My Account</a>
-				  <a class="dropdown-item" href="<?php echo site_url('customer/orders'); ?>">Order</a>
+				  <a class="dropdown-item" style="color: white;" href="<?php echo site_url('customer'); ?>">My Account</a>
+				  <a class="dropdown-item" style="color: white;" href="<?php echo site_url('customer/orders'); ?>">Order</a>
 				  <div class="divider"></div>
-				  <a class="dropdown-item" href="<?php echo site_url('auth/logout'); ?>">Logout</a>
+				  <a class="dropdown-item" style="color: white;" href="<?php echo site_url('auth/logout'); ?>">Logout</a>
 				  <?php elseif ( is_login() && is_admin()) : ?>
 					<a class="dropdown-item" href="<?php echo site_url('admin'); ?>">Dasbor</a>
 				  <div class="divider"></div>
 				  <a class="dropdown-item" href="<?php echo site_url('auth/logout'); ?>">Logout</a>
 				  <?php else : ?>
-              	  <a class="dropdown-item" href="<?php echo site_url('auth/login'); ?>">Login</a>
-				  <a class="dropdown-item" href="<?php echo site_url('auth/register'); ?>">Register</a>
+              	  <a class="dropdown-item" style="color: white;" href="<?php echo site_url('auth/login'); ?>">Login</a>
+				  <a class="dropdown-item" style="color: white;" href="<?php echo site_url('auth/register'); ?>">Register</a>
 				  <?php endif; ?>
               </div>
             </li>
