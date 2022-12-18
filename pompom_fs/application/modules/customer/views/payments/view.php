@@ -10,8 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><?php echo anchor('customer', 'Home'); ?></li>
-                        <li class="breadcrumb-item active"><?php echo anchor('customer/payments', 'Pembayaran'); ?></li>
+                        <li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url(); ?>"><b><u>Home</u></b></a></li>
+                        <li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url('customer/payments'); ?>">Payment</a></li>
                         <li class="breadcrumb-item active">Order #<?php echo $data->order_number; ?></li>
                     </ol>
                 </div>
@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="content">
         <div class="row">
             <div class="col-md-8">
-                <div class="card card-primary">
+                <div class="card card-secondary">
                     <div class="card-header">
                         <h5 class="card-heading">Data Order</h5>
                     </div>
