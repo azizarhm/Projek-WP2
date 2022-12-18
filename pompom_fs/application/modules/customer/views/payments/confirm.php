@@ -104,7 +104,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                     <div class="card-footer text-right">
-                        <input type="submit" value="Konfirmasi" class="btn btn-primary">
+                        <input type="submit" value="Konfirmasi" class="btn btn-secondary">
                     </div>
                     <?php echo form_close(); ?>
                 </div>
