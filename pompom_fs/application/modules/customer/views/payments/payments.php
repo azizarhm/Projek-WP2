@@ -46,7 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <?php else : ?>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="alert alert-info">
+                        <div class="alert alert-secondary">
                             Belum ada data pembayaran
                         </div>
 
