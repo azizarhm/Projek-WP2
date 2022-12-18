@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="text-success font-weight-bold"><?php echo $flash; ?></div>
               <?php else : ?>
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>">Home</a></li>
+							<li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url(); ?>"><b><u>Home</u></b></a></li>
               <li class="breadcrumb-item active">Dasbor</li>
             </ol>
               <?php endif; ?>
@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
          
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-info">
+            <div class="small-box bg-secondary">
               <div class="inner">
                 <h3><?php echo $total_review; ?></h3>
 
