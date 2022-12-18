@@ -6,7 +6,15 @@ Pompom Fruit Store ialah aplikasi berbasis website yang menyediakan berbagai mac
 
 
 nama : admin
+
+
 pw : 12345
 
 
 Note : untuk semua pw yaitu "12345"
+
+
+Mohon maaf apabila masih banyak terdapat kesalahan dalam pembuatan aplikasi web ini, karna kami juga masih dalam tahap belajar. 
+
+
+Sekian terima kasih..
