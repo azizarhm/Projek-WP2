@@ -10,8 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><?php echo anchor(base_url(), 'Home'); ?></li>
-              <li class="breadcrumb-item active">Profil</li>
+              <li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url(); ?>"><b><u>Home</u></b></a></li>
+              <li class="breadcrumb-item active">Profile</li>
             </ol>
           </div>
         </div>
@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-3">
 
             <!-- Profile Image -->
-            <div class="card card-primary card-outline">
+            <div class="card card-secondary card-outline">
               <div class="card-body box-profile">
                 <div class="text-center">
                   <img class="profile-user-img img-fluid img-circle"
