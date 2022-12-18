@@ -10,8 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><?php echo anchor(base_url(), 'Home'); ?></li>
-                        <li class="breadcrumb-item"><?php echo anchor('customer/reviews', 'Review'); ?></li>
+                         <li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url(); ?>"><b><u>Home</u></b></a></li>
+                        <li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url('customer/reviews'); ?>">Review</a></li>
                         <li class="breadcrumb-item active">Tulis Review</li>
                     </ol>
                 </div>
@@ -48,7 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             </div>
             <div class="card-footer">
-                <input type="submit" value="Tulis Review" class="btn btn-primary">
+                <input type="submit" value="Tulis Review" class="btn btn-secondary">
             </div>
             </form>
         </div>
