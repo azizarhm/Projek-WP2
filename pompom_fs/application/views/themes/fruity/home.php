@@ -190,7 +190,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   </span>
                 </div>
                 <div class="text text-center">
-                  <p class="mb-5 pl-4"><?php echo $review->review_text; ?></p>
+                  <p class="mb-5 pl-4 line"><?php echo $review->review_text; ?></p>
                   <p class="name"><?php echo $review->name; ?></p>
                   <span class="position"><?php echo get_formatted_date($review->review_date); ?></span>
                 </div>
