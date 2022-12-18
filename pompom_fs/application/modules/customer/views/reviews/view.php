@@ -10,8 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><?php echo anchor(base_url(), 'Home'); ?></li>
-                        <li class="breadcrumb-item"><?php echo anchor('customer/reviews', 'Review'); ?></li>
+                        <li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url(); ?>"><b><u>Home</u></b></a></li>
+                        <li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url('customer/reviews'); ?>">Review</a></li>
                         <li class="breadcrumb-item active">Order #<?php echo $review->order_number; ?></li>
                     </ol>
                 </div>
@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="content">
      <div class="row">
       <div class="col-md-8">
-        <div class="card card-primary">
+        <div class="card card-secondary">
             <div class="card-body p-0">
                 <table class="table table-hover table-striped">
                     <tr>
