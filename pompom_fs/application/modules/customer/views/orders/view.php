@@ -10,8 +10,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><?php echo anchor('customer', 'Home'); ?></li>
-                        <li class="breadcrumb-item active"><?php echo anchor('customer/orders', 'Order'); ?></li>
+                        <li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url(); ?>"><b><u>Home</u></b></a></li>
+                        <li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url('customer/orders'); ?>">Order</a></li>
                         <li class="breadcrumb-item active">#<?php echo $data->order_number; ?></li>
                     </ol>
                 </div>
@@ -22,7 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <section class="content">
         <div class="row">
             <div class="col-md-8">
-                <div class="card card-primary">
+                <div class="card card-secondary">
                     <div class="card-header">
                         <h5 class="card-heading">Data Order</h5>
                     </div>
@@ -56,7 +56,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
 
-                <div class="card card-primary">
+                <div class="card card-secondary">
                     <div class="card-header">
                         <h5 class="card-heading">Barang dalam pesanan</h5>
                     </div>
@@ -85,7 +85,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card card-primary">
+                <div class="card card-secondary">
                     <div class="card-header">
                         <h5 class="card-heading">Data Penerima</h5>
                     </div>
@@ -111,7 +111,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
 
-                <div class="card card-primary">
+                <div class="card card-secondary">
                     <div class="card-header">
                         <h5 class="card-heading">Pembayaran</h5>
                     </div>
@@ -163,7 +163,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
 
-                <div class="card card-primary">
+                <div class="card card-secondary">
                     <div class="card-header">
                         <h5 class="card-heading">Tindakan</h5>
                     </div>
