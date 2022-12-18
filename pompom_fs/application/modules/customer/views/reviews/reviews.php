@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-sm-5">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><?php echo anchor(base_url(), 'Home'); ?></li>
+						<li class="breadcrumb-item"><a style="color: #871a1a;" href="<?php echo base_url(); ?>"><b><u>Home</u></b></a></li>
                         <li class="breadcrumb-item active">Review</li>
                     </ol>
                 </div>
@@ -22,12 +22,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <section class="content">
-        <div class="card card-primary">
+        <div class="card card-secondary">
             <div class="card-body<?php echo ( count($reviews) > 0) ? ' p-0' : ''; ?>">
             <?php if ( count($reviews) > 0) : ?>
                 <div class="table-responsive">
                     <table class="table table-striped m-0">
-                        <tr class="bg-primary">
+                        <tr class="bg-secondary">
                             <th scope="col">No.</th>
                             <th scope="col">Order</th>
                             <th scope="col">Tanggal</th>
